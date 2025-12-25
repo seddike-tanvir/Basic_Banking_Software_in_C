@@ -141,10 +141,6 @@ int login(struct Account users[], int *userCount, int *currentUser) {
     fclose(fp);
     *userCount = i;
 
-
-    // printf("\n         - - -<         Welcome to BASIC BANK         >- - -\n");
-    // printf("\n ---------------------------------------------------------------------\n\n\n");
-
     printf("\n\nEnter credentials to login - \n\n");
     printf("Enter Username: ");
     scanf(" %[^\n]", user);
